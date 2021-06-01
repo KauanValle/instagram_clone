@@ -4,20 +4,24 @@
 }
 body{
     position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
+    width: 99%;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .iphone-branco-container{
+    min-height: 100%;
     width: 100%;
     margin: 0 auto;
     /* position: fixed; */
-    /* border: 1px solid red; */
+    height: 700px;
     display: flex;
-    height: 800px;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 .iphone-branco{
     display: flex;
@@ -38,6 +42,7 @@ body{
 .container-foto-perfil{
     display: flex;
     justify-content: center;
+    
 }
 .foto-perfil{
     margin: 30px;
@@ -75,12 +80,16 @@ body{
     font-weight: bold;
 }
 .divlistafooter{
+    /* border: 1px solid red; */
     position: absolute;
-    /* bottom: 0; */
     left: 0;
     right: 0;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: -50px;
     /* border: 1px solid green; */
 }
 .lista li{
