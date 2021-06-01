@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    box-sizing: border-box;
+    /* display: flex; */
+    width: 100vw;
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.iphone-branco-container{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    height: 86vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone-branco{
+    display: flex;
+    width: 350px;
+}
+.container2{
+    padding: 40px;
+    border: 1px solid #DDD;
+    width: 250px;
+    height: 250px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: black;
+}
+.container-foto-perfil{
+    display: flex;
+    justify-content: center;
+}
+.foto-perfil{
+    margin: 30px;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+.conta-errada{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.conta-errada a{
+
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.changeAccount{
+    color: rgb(0, 174, 255);
+    font-weight: bold;
+}
+.footer1{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+.lista li{
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+}
+.footer{
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+.containerButtonChange{
+    margin-top: 25px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid green; */
+    align-items: center;
+}
+#radio1{
+    /* border: 1px solid red; */
+    appearance: none;
+    background-color: #222;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+}
+#radio1 + label{
+    padding: 0px 10px;
+}
+#radio1:focus{
+    outline: 0;
+}
+@media (max-width: 1000px) {
+    .iphone-branco{
+        display: none;
+    }
+    .footer1{
+        /* border: 1px solid green; */
+        width: 90%;
+    }
+    .footer{
+        font-size: 10px;
+    }
+    .lista li{
+        padding: 3px 3px;
+    }
+    .iphone-branco-container{
+        height: 78vh;
+        /* border: 1px solid blue; */
+    }
+}
