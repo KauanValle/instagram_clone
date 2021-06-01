@@ -11,6 +11,7 @@ function changeColor(){
     var container2 = document.getElementsByClassName('container2')[0]
 
     if(colorSwitch.checked){//-----------------------------DARKMODE------------------------------
+        
         corpo.style = 'background-color: #111;' //Background grey
         titulo.style = 'color: white;' // 'Instagram' white
         contaErrada.style.color = 'white' // 'Não é cwb_kauan?' white
@@ -19,7 +20,9 @@ function changeColor(){
         mode.innerHTML = 'LIGHTMODE' // Writing lightmode
         radio1.style = 'background: url(css/images/sun_30px.png) no-repeat; transition: 0.5s;' // Add sun image and transition
         container2.style = 'border: 1px solid #555;' // Add border dark grey around main container
+
     }else{//-----------------------------LIGHTMODE------------------------------
+
         corpo.style = 'background-color: white;' //Background white
         titulo.style = 'color: black;' // 'Instagram' black
         contaErrada.style.color = 'black' // 'Não é cwb_kauan?' black
