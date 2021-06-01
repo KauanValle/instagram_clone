@@ -72,7 +72,7 @@ body{
     color: rgb(0, 174, 255);
     font-weight: bold;
 }
-.footer1{
+.divlistafooter{
     display: flex;
     justify-content: center;
     width: 50%;
@@ -115,7 +115,7 @@ body{
     .iphone-branco{
         display: none;
     }
-    .footer1{
+    .divlistafooter{
         width: 90%;
     }
     .footer{
